@@ -9,6 +9,8 @@ body, html {
     height: 100%;
 }
 
+ /* The navigation bar with internal linking */
+
 nav ul {
     list-style: 0;
     background-color: #666666;
@@ -67,6 +69,8 @@ nav a:hover {
     padding-bottom: 10%;
   }
 
+  /* styling components for hero image text */
+
   h1 {
     text-align: center;
     font-size: 100px;
@@ -81,9 +85,14 @@ nav a:hover {
     color: orange;
     
   }
-    
-form {
+
+ /* Newsletter signup form */
+
+  form {
     border: 4px solid #f1f1f1;
+    margin: 0 auto;
+    width: 50%
+    
   }
   
   /* Newsletter signup form */
@@ -117,4 +126,8 @@ form {
   
   input[type=submit]:hover {
     opacity: 0.8;
+  }
+
+  .news-letter {
+    font-size: 20px;
   }
