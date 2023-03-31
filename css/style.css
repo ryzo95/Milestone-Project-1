@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif;
-    background-color: #000000;
+    background-color: black;
 }
 
 body, html {
@@ -94,13 +94,13 @@ nav a:hover {
 
  .intro {
   font-size: 30px;
+  padding-top: 100px;
 }
 
 
   form {
     border: 4px solid red;
-    margin-top: 100px;
-    margin: 0 auto;
+    margin: 100px auto;
     width: 50%;
     
   }
@@ -109,7 +109,14 @@ nav a:hover {
 
   .container {
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: grey;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    color: orange;
   }
   
 
@@ -139,5 +146,5 @@ nav a:hover {
   }
 
   .news-letter {
-    font-size: 20px;
+    font-size: 30px;
   }
