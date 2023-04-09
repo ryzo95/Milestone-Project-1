@@ -148,3 +148,26 @@ nav a:hover {
   .news-letter {
     font-size: 30px;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Lineup in three-table layout */
+  
+  .lineup-table {
+    padding: 20px;
+    background-color: grey;
+    height: 600px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
