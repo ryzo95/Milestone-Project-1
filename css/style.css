@@ -89,7 +89,8 @@ nav a:hover {
  /* Newsletter signup form */
 
  #intro-signup {
-  height: 1000px;
+  height: 1100px;
+  border: 2px solid red;
  }
 
  .intro {
@@ -104,6 +105,36 @@ nav a:hover {
     width: 50%;
     
   }
+
+   /* Lineup in three-table layout */
+  
+   .lineup-table {
+    padding: 20px;
+    background-color: grey;
+    height: 650px;
+    border: 2px solid red;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 600px;
+    text-align: center;
+  }
+
+  li {
+    list-style-type:none;
+    font-size: x-large;
+    height: 50px;
+    font-family: fantasy;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   
   /* Newsletter signup form */
 
@@ -152,33 +183,5 @@ nav a:hover {
 
   * {
     box-sizing: border-box;
-  }
-
-  /* Lineup in three-table layout */
-  
-  .lineup-table {
-    padding: 20px;
-    background-color: grey;
-    height: 650px;
-  }
-
-  .column {
-    float: left;
-    width: 33.33%;
-    height: 600px;
-    text-align: center;
-  }
-
-  li {
-    list-style-type:none;
-    font-size: x-large;
-    height: 50px;
-    font-family: fantasy;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 
