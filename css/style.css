@@ -163,6 +163,12 @@ nav a:hover {
   .column {
     float: left;
     width: 33.33%;
+    height: 550px;
+    text-align: center;
+  }
+
+  li {
+    list-style-type:none;
   }
   
   .row:after {
