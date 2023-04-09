@@ -117,6 +117,7 @@ nav a:hover {
     font-family: fantasy;
     font-size: xx-large;
     color: orange;
+    text-shadow: 0 0 3px #FF0000;
   }
   
 
@@ -158,17 +159,21 @@ nav a:hover {
   .lineup-table {
     padding: 20px;
     background-color: grey;
-    height: 600px;
+    height: 650px;
   }
+
   .column {
     float: left;
     width: 33.33%;
-    height: 550px;
+    height: 600px;
     text-align: center;
   }
 
   li {
     list-style-type:none;
+    font-size: x-large;
+    height: 50px;
+    font-family: fantasy;
   }
   
   .row:after {
