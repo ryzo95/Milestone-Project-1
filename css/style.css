@@ -9,7 +9,7 @@ body, html {
     height: 100%;
 }
 
-/* The navigation bar with internal linking */
+ /* The navigation bar with internal linking */
 
 nav ul {
     list-style: 0;
@@ -39,7 +39,7 @@ nav a:hover {
 
 }
 
-/* The hero image */
+ /* The hero image */
 .hero-image {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1578850141295-7fb35c301da6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
     height: 100%;
@@ -86,7 +86,7 @@ nav a:hover {
     
   }
 
- /* Newsletter signup form */
+  /* Newsletter signup form */
 
  #intro-signup {
   height: 1100px;
@@ -106,7 +106,7 @@ nav a:hover {
     
   }
 
-   /* Lineup in three-table layout */
+  /* Lineup in three-table layout */
   
    .lineup-table {
     padding: 20px;
@@ -135,7 +135,7 @@ nav a:hover {
     clear: both;
   }
 
-/* Newsletter signup form */
+  /* Newsletter signup form */
 
   .container {
     padding: 20px;
@@ -198,4 +198,23 @@ nav a:hover {
     width: 100%;
 }
 
- /* Interactive Map */
+  /* Responsive location map */
+
+ #map {
+  height: 100%;
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+  border: 2px solid red;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
