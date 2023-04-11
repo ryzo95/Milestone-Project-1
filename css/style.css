@@ -135,8 +135,7 @@ nav a:hover {
     clear: both;
   }
 
-  
-  /* Newsletter signup form */
+/* Newsletter signup form */
 
   .container {
     padding: 20px;
@@ -185,13 +184,18 @@ nav a:hover {
     box-sizing: border-box;
   }
 
+  /* Photo gallery */
+
  #photo {
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
+    border: 2px solid red;
    
 }
 
 #photo img{
     width: 100%;
 }
+
+ /* Interactive Map */
