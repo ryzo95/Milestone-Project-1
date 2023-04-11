@@ -89,7 +89,7 @@ nav a:hover {
   /* Newsletter signup form */
 
  #intro-signup {
-  height: 1100px;
+  height: 1200px;
   border: 2px solid red;
  }
 
@@ -149,6 +149,10 @@ nav a:hover {
     color: orange;
     text-shadow: 0 0 3px #FF0000;
   }
+
+  .welcome-message {
+    padding-top: 5%;
+  }
   
 
   input[type=text], input[type=submit] {
@@ -162,7 +166,7 @@ nav a:hover {
   
 
   input[type=checkbox] {
-    margin-top: 16px;
+    margin-top: 10px;
   }
   
   
