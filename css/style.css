@@ -222,3 +222,33 @@ nav a:hover {
   top: 0;
   position: absolute;
 }
+
+  /* Ticket information and Background image */
+
+.background-image {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1565250264861-7f7e92a17285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 2px solid red;
+}
+
+.background-outer {
+  height: 750px;
+  width: 100%;
+}
+
+.details p {
+background-color: rgba(0,0,0,0.5);
+color: #fff;
+margin: 0 auto 10px auto;
+font-family: 'MuseoSansCond-900','Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 1.9em;
+height: 50%;
+width: 50%;
+top: 50%;
+margin-top: 250px;
+
+}
