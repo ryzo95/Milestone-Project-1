@@ -276,3 +276,27 @@ nav a:hover {
   position: absolute;
 }
 
+/* Footer */
+
+footer{
+  height: 200px;
+  background-color: #484848;
+  overflow: hidden;
+}
+
+.social-links{
+  text-align: right;
+  padding-top: 2.5%;
+
+}
+
+.social-links li{
+  display: inline;
+}
+
+.social-links i{
+  font-size: 150%;
+  margin: 0.5%;
+  padding: 2.5%;
+  color: lightgrey;
+}
