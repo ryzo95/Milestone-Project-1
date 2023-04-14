@@ -13,7 +13,7 @@ body, html {
 
 nav ul {
     list-style: 0;
-    background-color: #666666;
+    background-color: #484848;
     text-align: right;
     padding: 0;
     margin: 0;
@@ -73,17 +73,17 @@ nav a:hover {
     font-size: 50px;
     color: #fff;
     padding-top: 5%;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 
-  /* styling components for hero image text */
+  /* styling components for hero heading */
 
   h1 {
     text-align: center;
     font-size: 100px;
     font-family: fantasy;
-    color: orange;
-    text-shadow: 0 0 3px #FF0000;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
   }
 
   /* Lineup in three-table layout */
@@ -100,6 +100,7 @@ nav a:hover {
     width: 33.33%;
     height: 600px;
     text-align: center;
+    
   }
 
   li {
@@ -109,6 +110,10 @@ nav a:hover {
     font-family: fantasy;
   }
   
+  .list-items {
+    padding-top: 5%;
+  }
+
   .row:after {
     content: "";
     display: table;
@@ -121,7 +126,7 @@ nav a:hover {
     text-align: center;
     font-size: 1.9em;
     font-family: serif;
-    color: orange;
+    color: white;
     padding-top: 5%;
     
   }
@@ -135,48 +140,50 @@ nav a:hover {
     border: 4px solid red;
     margin: 100px auto;
     width: 50%;
+    border: 2px solid  red;
     
   }
 
   .container {
     padding: 20px;
-    background-color: grey;
+    background-color: 	#484848;
   }
 
   .news-letter {
     text-align: center;
+    text-shadow: white;
   }
 
   h2 {
     text-align: center;
     font-family: fantasy;
     font-size: xx-large;
-    color: orange;
-    text-shadow: 0 0 3px #FF0000;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 
   .welcome-message {
     padding-top: 5%;
   }
-  
 
   input[type=text], input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     box-sizing: border-box;
   }
   
 
   input[type=checkbox] {
     margin-top: 10px;
+    color: white;
   }
   
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: grey;
     color: white;
     border: none;
   }
@@ -187,10 +194,8 @@ nav a:hover {
 
   .news-letter {
     font-size: 30px;
-  }
-
-  * {
-    box-sizing: border-box;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
   }
 
   /* Photo gallery */
@@ -209,7 +214,7 @@ nav a:hover {
 
   /* Ticket information and Background image */
 
-  .background-image {
+.background-image {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1565250264861-7f7e92a17285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
     height: 100%;
     background-position: center;
@@ -226,8 +231,8 @@ nav a:hover {
 
   .tickets-now {
     text-align: center;
-    color: orange;
-    text-shadow: 0 0 3px #FF0000;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     padding-top: 5%;
     font-size: 50px;
 
@@ -270,3 +275,4 @@ nav a:hover {
   top: 0;
   position: absolute;
 }
+
