@@ -29,10 +29,10 @@ The Fantasy font is the main font used throughout the whole website, this font h
 Eye catching imagery is important. I have added a hero image which highlights the festival experience and provides a clear message of what the site is going to be based on.
 
 <h2>Wireframes</h2>
-Home Page Wireframe - View
+Home Page Wireframe - 
 
 <h2>Features</h2>
-Static one-page site with five sections including the hero image.
+Static one-page site with five sections, including the hero image.
 
 Interactive elements
 
@@ -61,44 +61,39 @@ Testing User Stories from User Experience (UX) Section
 <h2>First Time Visitor Goals</h2>
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with text highlighting the festival name and the location and dates of the festival commencement.
-The main points are made immediately with the hero image
-The user has the option to scroll down or use the internal navigation links in the nav bar, both of which will lead to the areas of information required, to learn more about the organisation.
+Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with text highlighting the festival name and the location and dates of the festival commencement.<br>
 
-As a First Time Visitor, I want to be able to easily navigate throughout the site, I want to know detailed information on why I should choose this site and on whether it is trusted. I also want to locate their social media links to see their followings on social media to determine how known they are.
+The user has the option to scroll down or use the internal navigation links in the nav bar, both of which will lead to the areas of information required, to learn more about the organisation.<br>
+
+As a First Time Visitor, I want to be able to easily navigate throughout the site, I want to know detailed information on why I should choose this site and on whether it is trusted. I also want to locate their social media links to see their followings on social media to determine how known they are.<br>
 
 The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-On the Newsletter Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-Once the new visitor has seen the hero image, they can then scroll to the lineup section, which will wntsail the bands that will perform at the festival, providing an insight into the experience they will have. 
-The user can then scroll down to the gallery and get an idea of the visual performance they will engage in with the festivsl experience.
+On the Newsletter Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.<br>
 
-As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how known they are.
+Once the new visitor has seen the hero image, they can then scroll to the lineup section, which will wntsail the bands that will perform at the festival, providing an insight into the experience they will have. 
+The user can then scroll down to the gallery and get an idea of the visual performance they will engage in with the festivsl experience.<br>
+
+As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how known they are.<br>
 
 At the bottom of the page there is a footer with Social Links to social media platforms for the users to check out. There is also a copyright link which links back to the hompeage as a unique identifier of my work.
 
 <h2>Returning Visitor Goals</h2>
-As a Returning Visitor, I want to find out about tickets and pre-sale tickets that are available for purchase.
+As a Returning Visitor, I want to find out about tickets and pre-sale tickets that are available for purchase.<br>
 
 These are clearly shown in the ticket section, which can be accessed via the navigation bar or by scrolling.
-They will be directed to a page with another hero image and call to action.
+They will be directed to a page with another hero image and call to action.<br> 
 
-As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+As a returning visitor I want to find the Facebook Group link so that I can join and interact with others in the community.<br>
 
-The navigation bar clearly highlights the "Tickets" and "Newsletter" Pages.
-Here they can fill out the form on the page.
 The footer contains links to Facebook, Instagram, Twitter and Youtube.
-Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-
-As a returning visitor I want to find the Facebook Group link so that I can join and interact with others in the community.
-
-The Facebook Page can be found at the footer of every page and will open a new tab for the user.
+Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website. The Facebook Page can be found at the footer of every page and will open a new tab for the user.
 
 <h2>Frequent User Goals</h2>
 As a Frequent User, I want to see if there is a newsletter that I can sign up to for more detailed information and updates on future events.
 
-The navigation bar will take the user to the "Newsletter page" which will hva ethe daily newsletter and singup options for the user to fill in.
+The navigation bar will take the user to the "Newsletter page" which will have the daily newsletter and singup options for the user to fill in.
 
-At the bottom of the oage there is the footer.
+At the bottom of the page there is the footer.
 The only content in the footer is the social media links and the copyright logo with a link to the homepage.
 
 <h2>Further Testing</h2>
@@ -109,6 +104,10 @@ Friends and family members were asked to review the site and documentation to po
 <h2>Known Bugs</h2>
 On mobile dvices the lineup content becomes squashed and looks untidy as a result.
 On mobile devices the submission form of the "Newsletter" page extends into the section below further impeding the use of the form on mobile devices.
+
+<h2>Solved Bugs</h2>
+Added external container to ticket section of site, all P element became affected by the change. Solved by targeting each with unique identifiers.<br>
+Unknown error caused Newsltter submission form to push out of the section and into the next, along with the pushing down of the introduction paragraph. Solved by using unique identifiers for both and adjusting padding and margins.
 
 <h2>Deployment</h2>
 GitHub Pages
@@ -146,7 +145,7 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 <h2>Credits</h2>
 
 Code
-The full-screen hero image code came from W3Schools, although code was modified to expected needs of the site.
+The full-screen hero images coding came from W3Schools, although code was modified to expected needs of the site.
 
 Bootstrap5: Bootstrap added but not heavily used due to mainly concentrating on entering code manually.
 
@@ -161,5 +160,4 @@ All images were sourced from [Unsplash] (https://unsplash.com/).
 <h2>Acknowledgements</h2>
 My Mentor for the helpful feedback.
 
-Note for Assessor:
-Apologies for the basic structure of the README, applied for extension due to extenuating circumstances, yet was refused. I will ensure a better draft with adequate styling properties in future.
+
