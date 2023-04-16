@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEAVYFEST</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    
 </head>
 <body>
 <header>
@@ -16,15 +17,15 @@
             <li><a href="#lineup-date">Lineup</a></li>
             <li><a href="#newsletter-signup">Newsletter</a></li>
             <li><a href="#photo">Gallery</a></li>
+            <li><a href="#ticket-section">Tickets</a></li>
             <li><a href="#map-location">Directions</a></li>
-            <li><a href="">Tickets</a></li>
         </ul>
     </nav>
   </header>
 <section class="hero-outer">
     <div class="hero-image">
         <div class="hero-text">
-            <h1>HEAVYFEST!</h1>
+            <h1 class="title-heading">HEAVYFEST!</h1>
                <p class="hero-location">25th - 27th August <br>
                 Llyn Padarn - LLanberis, North Wales
                </p>
@@ -34,7 +35,7 @@
 <section id="lineup-date" class="lineup-table">
   <div class="row">
     <div class="col-sm-4" style="background-color:#aaa;">
-      <h2>Friday 23rd August</h2>
+      <h2 class="lineup">Friday 23rd August</h2>
       <ul class="list-items">
         <li>Metallica</li>
         <li>Pearl Jam</li>
@@ -49,7 +50,7 @@
       </ul>
     </div>
     <div class="col-sm-4" style="background-color:#bbb;">
-      <h2>Saturday 24th August</h2>
+      <h2 class="lineup">Saturday 24th August</h2>
       <ul class="list-items">
         <li>Motley Crue</li>
         <li>Slipknot</li>
@@ -64,7 +65,7 @@
       </ul>
     </div>
     <div class="col-sm-4" style="background-color:#ccc;">
-      <h2>Sunday 25th August</h2>
+      <h2 class="lineup">Sunday 25th August</h2>
       <ul class="list-items">
         <li>Pink Floyd</li>
         <li>Led Zeppelin</li>
@@ -81,7 +82,7 @@
   </div>
 </section>
 <section id="intro-signup">
-  <h2 id="newsletter-signup" class="welcome-message">What we have in store for you!</h2>
+  <h2 class="welcome-message">What we have in store for you!</h2>
      <p class="intro">Hello there our fellow rockers and welcome to our all new and exciting event that is coming to the beautfiul country of <br>
         North Wales! We are not only bringing you a festival jam packed with all kinds of activities and entertainment, we are <br>
         also bringin to you the best rock lineup you will see in the UK this year! With plenty of bands from all genres to choose <br> 
@@ -90,14 +91,14 @@
 
     <form action="action_page.php">
         <div class="container">
-          <h2>Subscribe to our Newsletter!</h2>
+          <h2 class="subscribe">Subscribe to our Newsletter!</h2>
           <p class="news-letter">Ge the lastest news on updates to our lineup announcemnets and ticket sales, as well as <br>
              news from the relevant bands and artists on new releases and merchandise!</p>
         </div>
         <div class="container">
           <input type="text" placeholder="Name" name="name" required>
           <input type="text" placeholder="Email address" name="mail" required>
-          <label>
+          <label class="daily">
             <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
           </label>
         </div>
@@ -120,11 +121,11 @@
       <img src="https://images.unsplash.com/photo-1562633484-f8eb6f29cf63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHJvY2slMjBjb25jZXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
     </section>
     <section>
-      <div class="background-image">
+      <div id="ticket-section" class="background-image">
         <div class="background-outer">
           <h2 class="tickets-now">Get your tickets now!</h2>
           <p class="details">What are you waiting for? Head over to our partner site now and check for availability on pre-sale tickets! <br>
-                             Grab your tickets from: https://www.ticketmaster.co.uk/</p>
+                             Grab your tickets from: <a href="https://www.ticketmaster.co.uk/" target="_blank"><span style="color: blue"> https://www.ticketmaster.co.uk/ </span></a></p>
         </div>
       </div>
   </section>
@@ -135,6 +136,7 @@
 </section>
 <footer>
     <ul class="social-links">
+      <strong class="heading">Social Links:</strong>
         <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></li>
         <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></li>
         <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></li>
