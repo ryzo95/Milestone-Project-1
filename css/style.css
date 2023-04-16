@@ -39,7 +39,7 @@ nav a:hover {
 
 }
 
- /* The hero image, title and location */
+ /* The hero image, title and location (Used W3Schools for structure of hero image)*/
 
  .hero-image {
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1619229666372-3c26c399a4cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
@@ -75,8 +75,6 @@ nav a:hover {
     padding-top: 5%;
     text-shadow: black 0.1em 0.1em 0.2em;
   }
-
-  /* styling components for hero heading */
 
   .title-heading {
     text-align: center;
@@ -120,7 +118,7 @@ nav a:hover {
     clear: both;
   }
 
-  /* Newsletter signup form (Used W3Schools for aid with inputs)*/
+  /* Site introduction and Newsletter signup form (Used W3Schools for aid with inputs)*/
 
  .intro {
     text-align: center;
@@ -226,7 +224,7 @@ nav a:hover {
     width: 100%;
 }
 
-  /* Ticket information and Background image (Used W3Schools for the structure) */
+  /* Ticket information and Background image (Got idea for center container from Download Festival Webpage) */
 
 .background-image {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1565250264861-7f7e92a17285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
@@ -287,7 +285,7 @@ nav a:hover {
   position: absolute;
 }
 
-/* Footer with social media links (Watched tutorial on Code Institute)*/
+ /* Footer with social media links (Watched tutorial on Code Institute)*/
 
 
 footer {
@@ -319,7 +317,7 @@ footer {
   font-size: 150%;
 }
 
-/* coypright text in for footer */
+ /* coypright link in footer */
 
 .copyright {
   text-align:center;
