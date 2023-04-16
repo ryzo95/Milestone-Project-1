@@ -83,7 +83,7 @@ nav a:hover {
     font-size: 100px;
     font-family: fantasy;
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 
   /* Lineup in three-table layout */
@@ -120,7 +120,7 @@ nav a:hover {
     clear: both;
   }
 
-  /* Newsletter signup form */
+  /* Newsletter signup form (Used W3Schools for aid with inputs)*/
 
  .intro {
     text-align: center;
@@ -128,6 +128,7 @@ nav a:hover {
     font-family: serif;
     color: white;
     padding-top: 5%;
+    text-shadow: black 0.1em 0.1em 0.2em;;
     
   }
 
@@ -225,7 +226,7 @@ nav a:hover {
     width: 100%;
 }
 
-  /* Ticket information and Background image */
+  /* Ticket information and Background image (Used W3Schools for the structure) */
 
 .background-image {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1565250264861-7f7e92a17285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
@@ -248,7 +249,6 @@ nav a:hover {
     text-shadow: black 0.1em 0.1em 0.2em;
     padding-top: 5%;
     font-size: 50px;
-
   }
   
   .details {
@@ -263,10 +263,10 @@ nav a:hover {
   height: 50%;
   width: 50%;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 7.5%;
 }
 
-  /* Responsive location map */
+  /* Responsive location map (with help from Google Maps) */
 
  #map {
   height: 100%;
@@ -287,7 +287,7 @@ nav a:hover {
   position: absolute;
 }
 
-/* Footer with social media links */
+/* Footer with social media links (Watched tutorial on Code Institute)*/
 
 
 footer {
@@ -296,18 +296,18 @@ footer {
   overflow: hidden;
 }
 
-.social-links{
+.social-links {
   text-align: center;
   padding-top: 3.5%;
   padding-right: 2.5%;
 
 }
 
-.social-links li{
+.social-links li {
   display: inline;
 }
 
-.social-links i{
+.social-links i {
   font-size: 150%;
   margin: 0.5%;
   padding: 1%;
@@ -319,5 +319,11 @@ footer {
   font-size: 150%;
 }
 
+/* coypright text in for footer */
+
+.copyright {
+  text-align:center;
+  }
+  
 
 
