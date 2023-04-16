@@ -1,3 +1,5 @@
+#HEAVYFEST WEBSITE
+
 User Experience (UX)
 
 User stories
@@ -28,12 +30,8 @@ Eye catching imagery is important. I have added a hero image which highlights th
 Wireframes
 Home Page Wireframe - View
 
-Mobile Wireframe - View
-
-Contact Us Page Wireframe - View
-
 Features
-Responsive on all device sizes
+Static one-page site with five sections including the hero image.
 
 Interactive elements
 
@@ -44,9 +42,7 @@ CSS3
 Frameworks, Libraries & Programs Used
 Bootstrap 5.3.0:
 Bootstrap was used to assist with the responsiveness and styling of the website.
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-jQuery:
-jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 Git
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 GitHub:
@@ -54,10 +50,10 @@ GitHub is used to store the projects code after being pushed from Git.
 Balsamiq:
 Balsamiq was used to create the wireframes during the design process.
 Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate HTML and CSS yet did not have sufficient time to correct all errors, errors will be listed beneath:
+The W3C Markup Validator and W3C CSS Validator Services were used to validate HTML and CSS, yet did not have sufficient time to correct all errors, errors will be listed beneath:
 
-W3C Markup Validator - Results
-W3C CSS Validator - Results
+W3C Markup Validator - Results [Markup Validator] (https://validator.w3.org/nu/#textarea)
+W3C CSS Validator - Results [CSS Validator] (https://jigsaw.w3.org/css-validator/validator#errors)
 
 Testing User Stories from User Experience (UX) Section
 First Time Visitor Goals
@@ -67,7 +63,7 @@ Upon entering the site, users are automatically greeted with a clean and easily 
 The main points are made immediately with the hero image
 The user has the option to scroll down or use the internal navigation links in the nav bar, both of which will lead to the areas of information required, to learn more about the organisation.
 
-As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+As a First Time Visitor, I want to be able to easily navigate throughout the site, I want to know detailed information on why I should choose this site and on whether it is trusted. I also want to locate their social media links to see their followings on social media to determine how known they are.
 
 The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 On the Newsletter Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
@@ -145,19 +141,20 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Credits
+##Credits
+
 Code
 The full-screen hero image code came from W3Schools, although code was modified to expected needs of the site.
 
 Bootstrap5: Bootstrap added but not heavily used due to mainly concentrating on entering code manually.
 
-MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found Here
+FontAwesome: FontAwesome was used for social medial links in the footer.
 
-Content
+##Content
 Content was written by the developer, along with help from Code Insitute tutorials and [W3Schools] (https://www.w3schools.com/).
 
-Media
+##Media
 All images were sourced from [Unsplash] (https://unsplash.com/).
 
-Acknowledgements
+##Acknowledgements
 My Mentor for the helpful feedback.
