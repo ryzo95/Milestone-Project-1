@@ -1,41 +1,42 @@
-HEAVYFEST WEBSITE
+<h1>HEAVYFEST WEBSITE</h1>
 
-User Experience (UX)
+<h2></h2>User Experience (UX)</h2>
 
-User stories
-First Time Visitor Goals
+<h2>User stories</h2>
+
+<h2>First Time Visitor Goals</h2>
 As a First Time Visitor, I want to easily understand the main purpose of the site and why this site should be re-visited in future.
 As a First Time Visitor, I want to be able to easily navigate throughout the site, I want to know detailed information on why I should choose this site and on whether it is trusted. I also want to locate their social media links to see their followings on social media to determine how known they are.
 
-Returning Visitor Goals
+<h2>Returning Visitor Goals</h2>
 As a Returning Visitor, I want to find information about where and why this event exists.
 As a Returning Visitor, I want to find detailed contact information.
 As a Returning Visitor, I want to easy access to directions and examples of events and visuals.
 
-Frequent User Goals
+<h2>Frequent User Goals</h2>
 As a Frequent User, I want to check to see if there is information on pre-sale tickets and tickets in general.
 As a Frequent User, I want to check to see if there are any announcements for the event.
 As a Frequent User, I want to see if there is a newsletter that i can sign up to for more detailed information and updates on future events.
 
-Design
+<h2>Design</h2>
 Colour Scheme
 The three main colours used are Code Insititue grey, white and black for the background.
 
-Typography
+<h2>Typography</h2>
 The Fantasy font is the main font used throughout the whole website, this font highlights the text in a large and easy-to-read style which all users can read with ease.
 
-Imagery
+<h2>Imagery</h2>
 Eye catching imagery is important. I have added a hero image which highlights the festival experience and provides a clear message of what the site is going to be based on.
 
-Wireframes
+<h2>Wireframes</h2>
 Home Page Wireframe - View
 
-Features
+<h2>Features</h2>
 Static one-page site with five sections including the hero image.
 
 Interactive elements
 
-Technologies Used
+<h2>Technologies Used</h2>
 Languages Used
 HTML5
 CSS3
@@ -56,7 +57,8 @@ W3C Markup Validator - Results [Markup Validator] (https://validator.w3.org/nu/#
 W3C CSS Validator - Results [CSS Validator] (https://jigsaw.w3.org/css-validator/validator#errors)
 
 Testing User Stories from User Experience (UX) Section
-First Time Visitor Goals
+
+<h2>First Time Visitor Goals</h2>
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with text highlighting the festival name and the location and dates of the festival commencement.
@@ -74,7 +76,7 @@ As a First Time Visitor, I want to look for testimonials to understand what thei
 
 At the bottom of the page there is a footer with Social Links to social media platforms for the users to check out. There is also a copyright link which links back to the hompeage as a unique identifier of my work.
 
-Returning Visitor Goals
+<h2>Returning Visitor Goals</h2>
 As a Returning Visitor, I want to find out about tickets and pre-sale tickets that are available for purchase.
 
 These are clearly shown in the ticket section, which can be accessed via the navigation bar or by scrolling.
@@ -91,6 +93,7 @@ As a returning visitor I want to find the Facebook Group link so that I can join
 
 The Facebook Page can be found at the footer of every page and will open a new tab for the user.
 
+<h2>Frequent User Goals</h2>
 As a Frequent User, I want to see if there is a newsletter that I can sign up to for more detailed information and updates on future events.
 
 The navigation bar will take the user to the "Newsletter page" which will hva ethe daily newsletter and singup options for the user to fill in.
@@ -98,16 +101,16 @@ The navigation bar will take the user to the "Newsletter page" which will hva et
 At the bottom of the oage there is the footer.
 The only content in the footer is the social media links and the copyright logo with a link to the homepage.
 
-Further Testing
+<h2>Further Testing</h2>
 The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Google Chrome browsers.
 A large amount of testing was done to ensure that all pages were linking correctly.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-Known Bugs
+<h2>Known Bugs</h2>
 On mobile dvices the lineup content becomes squashed and looks untidy as a result.
 On mobile devices the submission form of the "Newsletter" page extends into the section below further impeding the use of the form on mobile devices.
 
-Deployment
+<h2>Deployment</h2>
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
 
@@ -140,7 +143,7 @@ Open the terminal in your code editor and change the current working directory t
 Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 
-Credits
+<h2>Credits</h2>
 
 Code
 The full-screen hero image code came from W3Schools, although code was modified to expected needs of the site.
@@ -149,13 +152,13 @@ Bootstrap5: Bootstrap added but not heavily used due to mainly concentrating on 
 
 FontAwesome: FontAwesome was used for social medial links in the footer.
 
-Content
+<h2>Content</h2>
 Content was written by the developer, along with help from Code Insitute tutorials and [W3Schools] (https://www.w3schools.com/).
 
-Media
+<h2>Media</h2>
 All images were sourced from [Unsplash] (https://unsplash.com/).
 
-Acknowledgements
+<h2>Acknowledgements</h2>
 My Mentor for the helpful feedback.
 
 Note for Assessor:
