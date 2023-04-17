@@ -142,14 +142,20 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 <h2>Credits</h2>
 
 Code
-The full-screen hero images coding came from W3Schools, although code was modified to expected needs of the site.
+The full-screen hero images coding came from W3Schools, although code was modified to expected needs of the site.<br>
 
-Bootstrap5: Bootstrap added but not heavily used due to mainly concentrating on entering code manually.
+Container in tickets section came from Download festival offical site.<br>
+
+Used W3Schools for newsletter submission form,although code was heavily modified.<br>
+
+Bootstrap5: Bootstrap added but not heavily used due to mainly concentrating on entering code manually.<br>
 
 FontAwesome: FontAwesome was used for social medial links in the footer.
 
 <h2>Content</h2>
-Content was written by the developer, along with help from Code Insitute tutorials and [W3Schools] (https://www.w3schools.com/).
+Content was written by the developer, along with help from Code Insitute tutorials and a fair bit of help [W3Schools] (https://www.w3schools.com/).<br>
+
+Small helpwith container from Download festival offical site also.
 
 <h2>Media</h2>
 All images were sourced from [Unsplash] (https://unsplash.com/).
