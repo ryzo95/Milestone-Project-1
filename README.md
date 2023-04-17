@@ -28,9 +28,6 @@ The Fantasy font is the main font used throughout the whole website, this font h
 <h2>Imagery</h2>
 Eye catching imagery is important. I have added a hero image which highlights the festival experience and provides a clear message of what the site is going to be based on.
 
-<h2>Wireframes</h2>
-Home Page Wireframe - 
-
 <h2>Features</h2>
 Static one-page site with five sections, including the hero image.
 
